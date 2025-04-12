@@ -32,6 +32,10 @@
 
 ---
 
+### Github Actions启动
+添加 Secrets.`USERS_YAML` 变量
+自行修改users.example.yaml
+
 ### 问题反馈
 
 -   提 issue
