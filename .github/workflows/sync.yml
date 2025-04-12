@@ -1,11 +1,11 @@
 # .github/workflows/sync.yml
-name: Sync Fork
+#name: Sync Fork
 
-on:
+#on:
   push:
-    branches: [ "master" ]
+分支: [ "master" ]
   pull_request:
-    branches: [ "master" ]
+分支: [ "master" ]
   schedule:
     - cron: '0 * * * *' # 每小时 0分触发, 对于一些更新不那么频繁的项目可以设置为每天一次, 低碳一点
 jobs:
