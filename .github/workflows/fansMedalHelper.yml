@@ -3,7 +3,8 @@ name: Run fansMedalHelper
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 22 * * *'  # 每天 UTC 22:00 = 北京时间早上6点
+    - cron: '0 22 * * *' # 每天 UTC 22:00 = 北京时间早上6点
+    - cron: '0 6 * * *'  # 每天 UTC 06:00 = 北京时间下午2点
 
 jobs:
   run-helper:
